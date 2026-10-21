@@ -1,5 +1,9 @@
 # Procedural 3D Map Baker
 
+## 시연 영상
+
+[![Backrooms-like Map Generation in Unity (WIP)](https://img.youtube.com/vi/0ACLtyFWc5w/maxresdefault.jpg)](https://www.youtube.com/watch?v=0ACLtyFWc5w)
+
 ## 프로젝트 소개
 
 - **게임**: 백룸풍 실내 공간에서 괴물 1명과 생존자 3명이 대결하는 비대칭 서바이벌 PvP. 생존자는 제한 시간 안에 탈출해야 하고, 괴물은 이를 막아야 합니다.
@@ -26,3 +30,7 @@
 ## 기술 문서
 
 모듈 규격과 래퍼 자동 생성, 바닥 패킹, 벽·문틀 배치(이음선·모서리·끝단 캡), Union-Find 기반 짧은 경계 처리, NavMesh, 호스트/클라이언트 결정적 배치, Render Graph 합성곱 필터는 [기술 문서](docs/TechnicalDesign.md)에 정리했습니다.
+
+## 참고 자료
+
+- Convolution 커널 종류와 가중치: Jephraim Manansala, [Image Processing with Python: Image Effects using Convolutional Filters and Kernels](https://medium.com/swlh/image-processing-with-python-convolutional-filters-and-kernels-b9884d91a8fd), The Startup, 2021-01-28
