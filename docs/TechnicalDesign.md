@@ -335,6 +335,8 @@ hash = hash * 31 + Mathf.RoundToInt(rotation.eulerAngles.y);
 
 URP Render Graph로 만든 커널 합성곱 화면 필터입니다. 프로젝트에서는 글로벌 볼륨에 Gaussian Blur 5×5를 Film Grain, Vignette와 함께 걸어 화면 분위기를 만드는 데 썼습니다.
 
+커널 종류와 가중치는 Jephraim Manansala의 [Image Processing with Python: Image Effects using Convolutional Filters and Kernels](https://medium.com/swlh/image-processing-with-python-convolutional-filters-and-kernels-b9884d91a8fd) (The Startup, 2021-01-28)를 참고했습니다.
+
 ### 11.1 구성
 
 | 클래스 | 역할 |
